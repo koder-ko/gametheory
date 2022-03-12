@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 
 class animal:
 
-    def __init__(self, type: str):
+    def __init__(self, type_str: str):
         self.score = 1000
-        self.type = type
+        self.type = type_str
 
     def score_add(self, score: int):
         self.score += score
